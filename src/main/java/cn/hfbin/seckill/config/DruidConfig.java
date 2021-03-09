@@ -52,6 +52,7 @@ public class DruidConfig {
         bean.setInitParameters(initParams);
 
         bean.setUrlPatterns(Arrays.asList("/*"));
+        System.out.println("这里进行改动");
         return  bean;
     }
 }
